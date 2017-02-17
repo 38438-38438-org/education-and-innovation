@@ -39,13 +39,14 @@ http://kinesis-ci.com/docs/context-variables/main.html
 
 File Type    | Description
 ------------ | --------------
-src | Contains the Tableau source files that have been imported into the given Project
-context | Contains the JSON files that define your context variables. For more information on context variables refer to the documentation under  http://kinesis-ci.com/docs/command-line-interface/main.html
-test | Contains files related to the individual Tests that have been created within the Project
-test/resources | Test resources. These are typically data files (.csv) needed to load data into source systems (i.e. databases) or validate data to expected results
-test/kinesis.json | JSON files that describe the individual Test steps that have been created within the Project
-project.json | JSON file that contains the key information to identify the individual Projects. This is only needed for Kinesis Designer, but not to run tests from the Command Line Interface
+``src`` | Contains the Tableau source files that have been imported into the given Project
+``context`` | Contains the JSON files that define your context variables. For more information on context variables refer to the documentation under  http://kinesis-ci.com/docs/command-line-interface/main.html
+``test`` | Contains files related to the individual Tests that have been created within the Project
+``test/<TEST_NAME>/resources`` | Test resources. These are typically data files (.csv) needed to load data into source systems (i.e. databases) or validate data to expected results
+``test/<TEST_NAME>/kinesis.json`` | JSON files that describe the individual Test steps that have been created within the Project
+``project.json`` | JSON file that contains the key information to identify the individual Projects. This is only needed for Kinesis Designer, but not to run tests from the Command Line Interface
 
+For more information on the Directory Layout please see http://kinesis-ci.com/docs/getting-started/create-a-new-project.html#standard-directory-layout
 
 ## Integration with CI tools
 
