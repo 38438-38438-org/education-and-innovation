@@ -1,6 +1,6 @@
 {
     "description": "Sample for assert image equals",
-    "name": "7.Assert__Image_Equals",
+    "name": "7.Assert_Image_Equals",
     "tasks": [
         {
             "db-password": "{{MSQL_PWD}}",
