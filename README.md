@@ -1,6 +1,6 @@
 # Kinesis-CI - Sample Project
 
-[![Build Status](http://jenkins.kinesis-ci.com:8081/buildStatus/icon?job=GitHub%20-%20Education%20and%20Innovation)](http://jenkins.kinesis-ci.com:8081/job/GitHub%20-%20Education%20and%20Innovation/)
+[![Build Status](http://jenkins.kinesis-ci.com:8081/buildStatus/icon?job=GitHub_-_Education_and_Innovation)](http://jenkins.kinesis-ci.com:8081/job/GitHub_-_Education_and_Innovation)
 
 Education and innovation is a sample project for users of the Kinesis CI tool for Tableau.
 Kinesis CI is a test framework that adds automated testing and continuous integration capability to Tableau Server.
