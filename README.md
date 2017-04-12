@@ -20,7 +20,9 @@ including tests for the following components:
 -	Filters
 -	Parameters
 -	Checking data against an expected data set
-- Checking the layout of the Dashboard to an expected layout
+-	Checking the layout of the Dashboard to an expected layout
+-	Checking data against pre-defined rules and criterias
+-	Checking data against the datasource by an SQL query in the underlying database
 
 This example goes hand in hand with the documentation of Kinesis CI, which you can find under http://kinesis-ci.com/docs/
 
