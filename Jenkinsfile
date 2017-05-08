@@ -30,7 +30,7 @@ node {
 
             // Run Kinesis CLI as a shell command
             // Every parameters is escaped to avoid issues with whitespace characters
-            sh("\"${kinesis}\" --path \"${pwd}\" --context-vars \"${context}\" -–canvas-timeout \"${kinesisTimeout}\" --output \"${pwd}\" --recursive")
+            sh("\"${kinesis}\" --path \"${pwd}\" --context-vars \"${context}\" --canvas-timeout \"${kinesisTimeout}\" --output \"${pwd}\" --recursive")
         }
 
     } catch (e) {
