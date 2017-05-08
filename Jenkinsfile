@@ -7,7 +7,7 @@ node {
     // For security reasons the context variables are masked in this GitHub project.
     // It is possible to keep it in your private repository but the recommended way to store
     // this files separately on the on the Jenkins server
-    def context = "/var/jenkins_home/kinesis-context/dev_tableau_9.3.json"
+    def context = "/var/jenkins_home/kinesis-context/jenkins_tableau_10.2.json"
 
     currentBuild.result = "SUCCESS"
 
