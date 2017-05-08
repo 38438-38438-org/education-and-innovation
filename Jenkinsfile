@@ -26,7 +26,7 @@ node {
         stage('Kinesis Tableau Test') {
             echo("Kinesis Tableau Test")
             def pwd = pwd()
-            def kinesisTimeout = 45
+            def kinesisTimeout = 75
 
             // Run Kinesis CLI as a shell command
             // Every parameters is escaped to avoid issues with whitespace characters
