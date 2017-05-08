@@ -7,7 +7,7 @@ node {
     // For security reasons the context variables are masked in this GitHub project.
     // It is possible to keep it in your private repository but the recommended way to store
     // this files separately on the on the Jenkins server
-    def context = "/var/jenkins_home/kinesis-context/dev_tableau_9.3.json"
+    def context = "/var/jenkins_home/kinesis-context/jenkins_tableau_10.2.json"
 
     jobStarted()
     currentBuild.result = "SUCCESS"
@@ -27,11 +27,11 @@ node {
         stage('Kinesis Tableau Test') {
             echo("Kinesis Tableau Test")
             def pwd = pwd()
-            def kinesisTimeout = 45
+            def kinesisTimeout = 75
 
             // Run Kinesis CLI as a shell command
             // Every parameters is escaped to avoid issues with whitespace characters
-            sh("\"${kinesis}\" --path \"${pwd}\" --context-vars \"${context}\" --output \"${pwd}\" --recursive")
+            sh("\"${kinesis}\" --path \"${pwd}\" --context-vars \"${context}\" -–canvas-timeout \"${kinesisTimeout}\" --output \"${pwd}\" --recursive")
         }
 
         jobSuccessful()
