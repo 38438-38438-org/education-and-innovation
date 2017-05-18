@@ -23,6 +23,7 @@ including tests for the following components:
 -	Checking the layout of the Dashboard to an expected layout
 -	Checking data against pre-defined rules and criterias
 -	Checking data against the datasource by an SQL query in the underlying database
+-	Running custom webdriver commands (required for SSO and custom login pages)
 
 This example goes hand in hand with the documentation of Kinesis CI, which you can find under http://kinesis-ci.com/docs/
 
