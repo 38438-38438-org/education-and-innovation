@@ -36,7 +36,7 @@
                 }
             ],
             "disabled": false,
-            "name": "Login to Tableau Server with webdriver comands",
+            "name": "Login to Tableau Server 10.2 with webdriver comands",
             "query-selector": "xpath",
             "timeout": 5000,
             "type": "drive_browser"
