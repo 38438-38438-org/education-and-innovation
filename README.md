@@ -25,6 +25,8 @@ including tests for the following components:
 -	Checking data against the datasource by an SQL query in the underlying database
 -	Running custom webdriver commands (required for SSO and custom login pages)
 -	Switch Tab
+-   Testing the performance of your Tableau Server
+-   Selecting Marks for testing interactivity/ user clicks
 
 This example goes hand in hand with the documentation of Kinesis CI, which you can find under http://kinesis-ci.com/docs/
 
