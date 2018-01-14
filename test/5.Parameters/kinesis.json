@@ -1,4 +1,5 @@
 {
+    "type": "functional",
     "description": "Set Parameter for Chart Type",
     "name": "5.Parameters",
     "tasks": [

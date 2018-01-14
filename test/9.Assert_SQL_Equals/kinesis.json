@@ -1,4 +1,5 @@
 {
+    "type": "functional",
     "description": "Sample for Assert SQL Equals",
     "name": "9.Assert_SQL_Equals",
     "tasks": [

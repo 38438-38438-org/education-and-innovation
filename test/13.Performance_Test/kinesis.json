@@ -1,4 +1,5 @@
 {
+    "type": "performance",
     "description": "Sample for Performance Test",
     "name": "13.Performance_Test",
     "tasks": [

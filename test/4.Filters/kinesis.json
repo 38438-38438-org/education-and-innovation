@@ -1,4 +1,5 @@
 {
+    "type": "functional",
     "description": "Set Filter for Region",
     "name": "4.Filters",
     "tasks": [

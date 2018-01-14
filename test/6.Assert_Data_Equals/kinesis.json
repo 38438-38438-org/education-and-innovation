@@ -1,4 +1,5 @@
 {
+    "type": "functional",
     "description": "Assert data equals - crosstab",
     "name": "6.Assert_Data_Equals",
     "tasks": [

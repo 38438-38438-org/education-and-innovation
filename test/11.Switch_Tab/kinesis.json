@@ -1,4 +1,5 @@
 {
+    "type": "functional",
     "description": "Switch Tab",
     "name": "11.Switch_Tab",
     "tasks": [

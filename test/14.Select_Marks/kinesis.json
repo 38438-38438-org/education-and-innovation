@@ -1,4 +1,5 @@
 {
+    "type": "functional",
     "description": "Example for Select Marks task combined with Assert Data Rules to validate marks selection",
     "name": "14.Select_Marks",
     "tasks": [
