@@ -15,7 +15,7 @@ This project is designed to give you an example for setting up your testing proj
 It contains a collection of test cases for a Tableau Workbook – Education and Innovation,
 including the following test cases:
 
-1. Functional Testing
+#### Functional Testing
 -	Load data into a database
 -	Publish Tableau workbooks and data sources to Tableau Server
 -	Refresh data extracts
@@ -29,13 +29,13 @@ including the following test cases:
 -	Switch Tab
 -   Selecting Marks for testing interactivity/ user clicks
 
-2. Regression Testing
+#### Regression Testing
 -   Running regression test on a Tableau dashboard to compare against a baseline in terms of data, layout, filter and parameter consitency
 
-3. Cross Environment Testing
+#### Cross Environment Testing
 -   Comparing the same Tableau View on two different environments i.e. dev and prod or two different Tableau Server versions, when doing and upgrade, in terms of data, layout, filter and parameter consitency
 
-4. Performance Testing
+#### Performance Testing
 -   Testing the performance of your Tableau Server by driving load against it
 
 
