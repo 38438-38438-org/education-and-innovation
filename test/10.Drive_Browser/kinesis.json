@@ -1,4 +1,5 @@
 {
+    "type": "functional",
     "description": "Sample for Drive Browser",
     "name": "10.Drive_Browser",
     "tasks": [

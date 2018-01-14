@@ -1,4 +1,5 @@
 {
+    "type": "functional",
     "description": "Load data from database",
     "name": "1.Load_Data",
     "tasks": [

@@ -1,4 +1,5 @@
 {
+    "type": "functional",
     "description": "Login to Tableau and Open Dashboard",
     "name": "3.Login_and_open_viz",
     "tasks": [

@@ -1,4 +1,5 @@
 {
+    "type": "functional",
     "description": "Sample for assert image equals",
     "name": "7.Assert_Image_Equals",
     "tasks": [

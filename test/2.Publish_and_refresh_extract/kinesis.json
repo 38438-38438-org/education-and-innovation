@@ -1,4 +1,5 @@
 {
+    "type": "functional",
     "description": "Publish data source and workbook and refresh",
     "name": "2.Publish_and_refresh_extract",
     "tasks": [

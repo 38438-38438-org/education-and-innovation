@@ -1,4 +1,5 @@
 {
+    "type": "functional",
     "description": "Sample Test for Assert Filter Equals Task",
     "name": "12.Assert_Filter_Equals",
     "tasks": [

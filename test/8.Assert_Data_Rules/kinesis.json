@@ -1,4 +1,5 @@
 {
+    "type": "functional",
     "description": "Sample test for Assert Data Rules",
     "name": "8.Assert_Data_Rules",
     "tasks": [
