@@ -1,6 +1,6 @@
 {
     "description": "Example - regression test",
-    "name": "14.Regression_Test",
+    "name": "15.Regression_Test",
     "tableau-snapshot": {
         "image": "resources/snapshot.png",
         "name": "Dashboard",
